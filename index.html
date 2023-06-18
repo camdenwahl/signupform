@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="odinbanner">
+                <img src="images/odin-lined.png" alt="">
+                <h1>FULL DIVE</h1>
+            </div>
+        </div>
+        <div class="main">
+            <h2 class="pitch">
+                Enter the world within. Become the character of your dreams! Pursue endless adventure and face danger at every corner. This is the World of Full Dive!
+            </h2>
+            <div class="center">
+                <h1>Sign Up</h1>
+                <form action="action">
+                    <div class="user">
+                        <label for="Username">Username:</label>
+                        <input type="text" id="username" name = "username" minlength="4" maxlength="16" placeholder="Account Name" required>
+                    </div>
+                    <div class="email">
+                        <label for="Email">Email:</label>
+                        <input type="email" id="email" name = "email" minlength="4" maxlength="16" placeholder="Email" required>
+                    </div>
+                    <div class="password">
+                        <label for="Password">Password:</label>
+                        <input type="password" id="password" name = "password" minlength="4" maxlength="16" placeholder="Password" required>
+                    </div>
+                    <div class="cpassword">
+                        <label for="CPassword">Confirm Password:</label>
+                        <input type="password" id="password2" name = "password2" minlength="4" maxlength="16" placeholder="Confirm Password" required>
+                    </div>
+                    <button type = "onclick">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
